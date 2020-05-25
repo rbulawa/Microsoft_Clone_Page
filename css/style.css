@@ -88,7 +88,7 @@ ul {
 .showcase {
 	width: 100%;
 	height: 600px;
-	background: url('https://github.com/rbulawa/Microsoft_Clone_Page/img/hassan-ouajbir-IYU_YmMRm7s-unsplash.jpg')
+	background: url('https://github.com/rbulawa/Microsoft_Clone_Page/blob/master/img/hassan-ouajbir-IYU_YmMRm7s-unsplash.jpg')
 		no-repeat center center/cover;
 	background-image: fill;
 	display: flex;
@@ -247,7 +247,8 @@ i {
 	margin-bottom: 100px;
 	width: 100%;
 	height: 550px;
-	background: url(https://github.com/rbulawa/Microsoft_Clone_Page/img/xbox-games.png) no-repeat center center/cover;
+	background: url(https://github.com/rbulawa/Microsoft_Clone_Page/blob/master/img/xbox-games.png) no-repeat center
+		center/cover;
 	/* box-shadow: 0 6px 6px -5px black; */
 }
 
