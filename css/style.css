@@ -38,11 +38,12 @@ ul {
 	padding: 20px 0;
 	font-size: 13px;
 }
-
+.main-nav .logo-link {
+	margin-bottom: 0px;
+}
 .main-nav .logo {
 	width: 100px;
 	height: 20px;
-	margin-bottom: 0px;
 }
 
 .main-nav ul {
