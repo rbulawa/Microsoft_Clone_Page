@@ -1,0 +1,408 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: #ffffff;
+	color: #000;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+a {
+	color: #262626;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Navbar Section */
+
+.container {
+	width: 80%;
+	max-width: 100%;
+	margin: auto;
+}
+
+/* Nav */
+.main-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding: 20px 0;
+	font-size: 13px;
+}
+
+.main-nav .logo {
+	width: 100px;
+	height: 20px;
+}
+
+.main-nav ul {
+	display: flex;
+}
+
+.main-nav ul li {
+	padding: 0 10px;
+}
+
+.main-nav ul li a {
+	padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover {
+	border-bottom: 2px solid #262626;
+}
+
+.main-nav ul.main-menu {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	width: max-content;
+	border: 0;
+	font-weight: 600;
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	transition: ease-in-out 0.3s;
+	opacity: 0.9;
+}
+
+/* Showcase section */
+
+.showcase {
+	width: 100%;
+	height: 600px;
+	background: url('https://github.com/rbulawa/Microsoft_Clone_Page/img/hassan-ouajbir-IYU_YmMRm7s-unsplash.jpg')
+		no-repeat center center/cover;
+	background-image: fill;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+	justify-content: flex-start;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.showcase h2 {
+	font-size: 3rem;
+	padding-top: 150px;
+}
+
+.showcase p {
+	font-weight: 600;
+}
+
+.showcase h2,
+.showcase p {
+	margin-bottom: 10px;
+	z-index: 20;
+}
+
+.showcase .btn {
+	margin-top: 20px;
+	z-index: 10;
+}
+
+.btn span {
+	margin-right: 10px;
+}
+
+.btn:hover span {
+	border-bottom: 2px solid #fff;
+	transform: translateX(5px);
+}
+
+.btn:hover i {
+	transition: ease-in-out 0.3s;
+	transform: translateX(5px);
+}
+
+.btn i {
+	margin-right: 0;
+	padding-right: 0;
+	transition: ease-in-out 0.3s;
+}
+
+.btn span:hover {
+	transition: ease-in-out 0.3s;
+	transform: translateZ(5px);
+}
+
+/* Showcase Icons Section */
+
+.showcase-icons {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+	margin-bottom: 30px;
+}
+
+.showcase-icons ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.showcase-icons ul li {
+	padding: 0 40px;
+	align-items: center;
+	font-weight: 600;
+	text-align: center;
+}
+
+.showcase-icons li:hover {
+	text-decoration: underline;
+}
+
+.showcase-icons img {
+	transition: ease-in-out 0.3s;
+}
+
+.showcase-icons img:hover {
+	transform: scale(1.2);
+	transition: ease-in-out 0.3s;
+}
+
+/* Home Cards Section  */
+.home-cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 12vw);
+	grid-gap: 20px;
+	height: 400px;
+	margin-bottom: 10px;
+}
+
+.home-cards img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-bottom: 10px;
+	transition: ease-out 0.3s;
+}
+
+.home-cards img:hover {
+	opacity: 0.9;
+	transition: ease-in-out 0.3s;
+}
+
+.home-cards h3 {
+	margin-bottom: 5px;
+}
+
+.home-cards a {
+	display: inline-block;
+	padding-top: 10px;
+	color: #0067b8;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.home-cards a:hover i {
+	transition: 0.3s;
+	transform: translateX(5px);
+}
+
+.home-cards span,
+i {
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.home-cards i {
+	transition: ease-out 0.3s;
+}
+
+.home-cards span:hover {
+	border-bottom: 2px solid #0067b8;
+}
+
+.buy {
+	margin-right: 15px;
+}
+
+.main-card {
+	box-shadow: 0 6px 6px -5px black;
+}
+
+/* Xbox section */
+.xbox-games {
+	margin-top: 30px;
+	margin-bottom: 100px;
+	width: 100%;
+	height: 550px;
+	background: url(https://github.com/rbulawa/Microsoft_Clone_Page/img/xbox-games.png) no-repeat center center/cover;
+	/* box-shadow: 0 6px 6px -5px black; */
+}
+
+.xbox-content {
+	width: 40%;
+	padding: 90px 0 0 30px;
+}
+
+.xbox-content h2 {
+	font-size: 3rem;
+}
+
+.xbox-content p {
+	margin: 10px 0 20px;
+}
+
+.firma {
+	font-size: 25px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+/* MS Teams Section */
+
+.ms-teams {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 100%;
+	background: rgb(250, 250, 250);
+	display: grid;
+	grid-template-columns: 35% 65%;
+	grid-template-rows: 550px;
+	/* box-shadow: 0 6px 6px -5px black; */
+}
+
+.teams-content {
+	width: 100%;
+	padding: 120px 0px;
+}
+
+.teams-content h2 {
+	font-size: 3rem;
+}
+
+.teams-content p {
+	margin: 10px 0 20px;
+}
+
+.xbox-video iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/* Follow Section  */
+
+.follow {
+	display: flex;
+}
+
+.follow a {
+	display: inline-block;
+	margin: 0px 5px;
+	opacity: 0.9;
+}
+
+.follow img {
+	height: 25px;
+	width: 25px;
+}
+
+.follow * {
+	margin-right: 5px;
+}
+
+.follow a:hover {
+	filter: contrast(1.7);
+}
+
+.follow p {
+	color: #5c5c5c;
+}
+/* Links */
+
+.links {
+	background: #f2f2f2f2;
+	color: #777575;
+	font-size: 12px;
+	padding: 35px 0;
+	margin: 0 auto;
+}
+
+.links-inner {
+	width: 80%;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.links li {
+	line-height: 2.8;
+}
+
+.links a {
+	color: #757575;
+}
+
+.links a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+	font-size: 12px;
+	padding: 20px 0;
+	color: #757575;
+	background: #f2f2f2f2;
+}
+
+.footer-inner {
+	width: 80%;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer ul {
+	display: flex;
+	color: #757575;
+	flex-wrap: wrap;
+}
+
+.footer div {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.footer li,
+a {
+	margin-right: 15px;
+	margin-bottom: 20px;
+	color: #5c5c5c;
+}
+
+.footer a:hover {
+	color: #000;
+	text-decoration: underline;
+}
